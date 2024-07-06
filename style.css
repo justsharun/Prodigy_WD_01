@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: violet;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.a-element {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  transition: color 0.3s ease;
+}
+
+.a-element:hover {
+  color: #65e0e9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #65e0e9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  padding-top: 100px; 
+}
+
+section {
+  height: 100vh;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  padding: 50px;
+}
+
+p{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+
+#home { background-color: lightblue; }
+#about { background-color: lightpink; }
+#web-design { background-color: lightgreen; }
+#uiux-developer { background-color: rgb(104, 213, 104); }
+#app-developer { background-color: lightseagreen; }
+#services { background-color: lightslategray; }
+#contact { background-color: wheat; }
